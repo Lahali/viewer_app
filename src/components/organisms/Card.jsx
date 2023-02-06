@@ -33,7 +33,7 @@ const Card = ({ src, alt, bgColor }) => {
       <StyledText fontSize={dimensions.font.xl} color={color}>
         Title of card
       </StyledText>
-      <StyledText fontSize={dimensions.font.base} bottom="2px">
+      <StyledText fontSize={dimensions.font.base} color={color} bottom="2px">
         Subtitle
       </StyledText>
     </StyledCard>

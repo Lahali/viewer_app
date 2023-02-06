@@ -45,7 +45,6 @@ const useConversorColor = (hexColor) => {
     if (hsl[2] > 0.5) {
       setColor("black")
     }
-    console.log(hsl)
   }, [hexColor])
 
   return { color }
